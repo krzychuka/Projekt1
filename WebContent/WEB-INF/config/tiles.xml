@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+    <definition name="base.definition" template="/WEB-INF/pages/mainTemplate.jsp">
+        <put-attribute name="title" value=""></put-attribute>
+        <put-attribute name="header" value="/WEB-INF/pages/header.jsp"></put-attribute>
+        <put-attribute name="menu" value="/WEB-INF/pages/menu.jsp"></put-attribute>
+        <put-attribute name="body" value=""></put-attribute>
+        <put-attribute name="footer" value="/WEB-INF/pages/footer.jsp"></put-attribute>
+    </definition>
+    
+    <definition name="welcome" extends="base.definition">
+        <put-attribute name="title" value="Projekt1"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/pages/welcome.jsp"></put-attribute>
+    </definition>
+    <definition name="index" extends="base.definition">
+        <put-attribute name="title" value="Projekt1"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/pages/index.jsp"></put-attribute>
+    </definition>
+    <definition name="dodajObiekt" extends="base.definition">
+        <put-attribute name="title" value="Projekt1"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/pages/dodajObiekt.jsp"></put-attribute>
+    </definition>
+    <definition name="listaObiektow" extends="base.definition">
+        <put-attribute name="title" value="Projekt1"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/pages/listaObiektow.jsp"></put-attribute>
+    </definition>
+    <definition name="login" extends="base.definition">
+        <put-attribute name="title" value="Projekt1"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/pages/login.jsp"></put-attribute>
+    </definition>
+    <definition name="dodajOdczyt" extends="base.definition">
+        <put-attribute name="title" value="Projekt1"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/pages/dodajOdczyt.jsp"></put-attribute>
+    </definition>
+    <definition name="listaOdczytow" extends="base.definition">
+        <put-attribute name="title" value="Projekt1"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/pages/listaOdczytow.jsp"></put-attribute>
+    </definition>
+    <definition name="calkowiteZuzycie" extends="base.definition">
+        <put-attribute name="title" value="Projekt1"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/pages/calkowiteZuzycie.jsp"></put-attribute>
+    </definition>
+    <definition name="jednostkoweZuzycie" extends="base.definition">
+        <put-attribute name="title" value="Projekt1"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/pages/jednostkoweZuzycie.jsp"></put-attribute>
+    </definition>
+    <definition name="calkowiteKoszty" extends="base.definition">
+        <put-attribute name="title" value="Projekt1"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/pages/calkowiteKoszty.jsp"></put-attribute>
+    </definition>
+    <definition name="jednostkoweKoszty" extends="base.definition">
+        <put-attribute name="title" value="Projekt1"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/pages/jednostkoweKoszty.jsp"></put-attribute>
+    </definition>
+    <definition name="listaOdczytowPLN" extends="base.definition">
+        <put-attribute name="title" value="Projekt1"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/pages/listaOdczytowPLN.jsp"></put-attribute>
+    </definition>
+    <definition name="otworzObiekt" extends="base.definition">
+        <put-attribute name="title" value="Projekt1"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/pages/otworzObiekt.jsp"></put-attribute>
+    </definition>
+    <definition name="dodajUzytkownika" extends="base.definition">
+        <put-attribute name="title" value="Projekt1"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/pages/dodajUzytkownika.jsp"></put-attribute>
+    </definition>
+    
+</tiles-definitions>
