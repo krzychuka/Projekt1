@@ -40,9 +40,9 @@ public class Bukip implements Serializable{
 	@Column(name="LICZBA_UZYTKOWNIKOW")
 	private Integer bukipLiczbaUzytkownikow;
 	
-	@OneToMany(mappedBy="bup")
+	@OneToMany(mappedBy="bukip")
 	@OnDelete(action=OnDeleteAction.CASCADE)
-	private Set<ZuzycieBup> zuzyciaBukip;
+	private Set<ZuzycieBukip> zuzyciaBukip;
 
 	public Long getBukipId() {
 		return bukipId;
@@ -84,11 +84,11 @@ public class Bukip implements Serializable{
 		this.bukipLiczbaUzytkownikow = bukipLiczbaUzytkownikow;
 	}
 
-	public Set<ZuzycieBup> getZuzyciaBukip() {
+	public Set<ZuzycieBukip> getZuzyciaBukip() {
 		return zuzyciaBukip;
 	}
 
-	public void setZuzyciaBukip(Set<ZuzycieBup> zuzyciaBukip) {
+	public void setZuzyciaBukip(Set<ZuzycieBukip> zuzyciaBukip) {
 		this.zuzyciaBukip = zuzyciaBukip;
 	}
 	
