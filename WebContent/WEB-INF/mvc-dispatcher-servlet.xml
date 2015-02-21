@@ -59,6 +59,16 @@
 		<list>
 				<value>model.Obiekt</value>
 				<value>model.Odczyt</value>
+				<value>model.Bup</value>
+				<value>model.Bukip</value>
+				<value>model.UrbisPwik</value>
+				<value>model.ZuzycieBup</value>
+				<value>model.ZuzycieBukip</value>
+				<value>model.ZuzycieUrbisPwik</value>
+				<value>model.Bj</value>
+				<value>model.ZuzycieBj</value>
+				<value>model.Bw</value>
+				<value>model.ZuzycieBw</value>
 		</list>
 		</property>
 		<property name="hibernateProperties">

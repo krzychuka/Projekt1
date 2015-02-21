@@ -45,7 +45,11 @@ public class TestClass{
 
 	}
 	
+	@RequestMapping(value = "/test.html", method = RequestMethod.GET)
+	public String test(ModelMap model) {
 
+		return "dodajTest";
 
+	}
 	
 }

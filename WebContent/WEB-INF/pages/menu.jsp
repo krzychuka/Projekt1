@@ -52,17 +52,17 @@
                             <table class="table">
                                 <tr>
                                     <td>
-                                        <span class="glyphicon glyphicon-user text-primary"></span><a href="listaObiektow.html"> Użyteczności publicznej</a>
+                                        <span class="glyphicon glyphicon-user text-primary"></span><a href="bups.html"> Użyteczności publicznej</a>
                                     </td>
                                 </tr>
                                  <tr>
                                     <td>
-                                        <span class="glyphicon glyphicon-home text-primary"></span><a href="listaObiektow.html"> Mieszkalne</a>
+                                        <span class="glyphicon glyphicon-home text-primary"></span><a href="listaBukip.html"> Mieszkalne</a>
                                     </td>
                                 </tr>
                                  <tr>
                                     <td>
-                                        <span class="glyphicon glyphicon-plane text-primary"></span><a href="listaObiektow.html"> Usługowe</a>
+                                        <span class="glyphicon glyphicon-plane text-primary"></span><a href="listaUrbisPwik.html"> Usługowe</a>
                                     </td>
                                 </tr>
                            
