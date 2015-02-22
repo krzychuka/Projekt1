@@ -57,12 +57,12 @@
                                 </tr>
                                  <tr>
                                     <td>
-                                        <span class="glyphicon glyphicon-home text-primary"></span><a href="listaBukip.html"> Mieszkalne</a>
+                                        <span class="glyphicon glyphicon-home text-primary"></span><a href="listaBw.html"> Wielorodzinne</a>
                                     </td>
                                 </tr>
                                  <tr>
                                     <td>
-                                        <span class="glyphicon glyphicon-plane text-primary"></span><a href="listaUrbisPwik.html"> Usługowe</a>
+                                        <span class="glyphicon glyphicon-plane text-primary"></span><a href="listaBj.html"> Jednorodzinne</a>
                                     </td>
                                 </tr>
                            
@@ -150,16 +150,6 @@
                                 <tr>
                                     <td>
                                         <span class="glyphicon glyphicon-list-alt text-primary"></span><a href="bie2013.html"> Raport BIE 2013</a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                       <span class="glyphicon glyphicon-usd text-primary"></span> <a href="calkowiteKoszty.html"> Całkowite koszty</a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                       <span class="glyphicon glyphicon-usd text-primary"></span> <a href="jednostkoweKoszty.html"> Jednostkowe koszty</a>
                                     </td>
                                 </tr>
                             </table>

@@ -40,10 +40,6 @@ co2rok  from transport</sql:query>
 							style="font-style: oblique;">Edytuj</a></td>
 					</tr>
 				</c:forEach>
-				<tr>
-					<td><center>Suma</center></td>
-					<td><center></center></td>
-				</tr>
 			</tbody>
 		</table>
 	</div>

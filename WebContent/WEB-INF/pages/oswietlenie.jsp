@@ -23,17 +23,15 @@ select * from oswietlenie</sql:query>
 					<th><center>Wyszczególnienie</center></th>
 					<th><center>MWh/rok</center></th>
 					<th><center>GJ/rok</center></th>
-					<th><center>Akcja</center></th>
 				</tr>
 			</thead>
 			<tbody>
 				<c:forEach var="oswietlenie" items="${oswietlenia.rows}">
 					<tr>
-						<td align="left"><c:out value="${oswietlenie.opis}" /></td>
-						<td align="left"><c:out value="${oswietlenie.kWh}" /></td>
-						<td align="left"><c:out value="${oswietlenie.co2}" /></td>
-						<td><a href="edytujOdczyt.html?id=${oswietlenie.co2rok}"
-							style="font-style: oblique;">Edytuj</a></td>
+						<td align="center"><c:out value="${oswietlenie.opis}" /></td>
+						<td align="center"><c:out value="${oswietlenie.kWh}" /></td>
+						<td align="center"><c:out value="${oswietlenie.co2}" /></td>
+
 					</tr>
 				</c:forEach>
 			</tbody>

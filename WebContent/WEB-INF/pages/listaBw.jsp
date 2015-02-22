@@ -46,7 +46,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h2 align="center">Bw</h2>
+	<h2 align="center">Budynki wielorodzinne</h2>
 	<br></br>
 
 	<sql:query var="bws" dataSource="${postgres}">
