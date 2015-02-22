@@ -91,16 +91,16 @@
                                         <span class="glyphicon glyphicon-off  text-primary"></span><a href="oswietlenie.html"> Oświetlenie</a>
                                     </td>
                                 </tr>
-                                 <tr>
-                                    <td>
-                                        <span class="glyphicon glyphicon-fire text-primary"></span><a href="listaObiektow.html"> Przemysł</a>
-                                    </td>
-                                </tr>
-                                 <tr>
-                                    <td>
-                                        <span class="glyphicon glyphicon-flash text-primary"></span><a href="listaObiektow.html"> Energetyka</a>
-                                    </td>
-                                </tr>                      
+<!--                                  <tr> -->
+<!--                                     <td> -->
+<!--                                         <span class="glyphicon glyphicon-fire text-primary"></span><a href="listaObiektow.html"> Przemysł</a> -->
+<!--                                     </td> -->
+<!--                                 </tr> -->
+<!--                                  <tr> -->
+<!--                                     <td> -->
+<!--                                         <span class="glyphicon glyphicon-flash text-primary"></span><a href="listaObiektow.html"> Energetyka</a> -->
+<!--                                     </td> -->
+<!--                                 </tr>                       -->
                     
                             </table>
                         </div>
@@ -123,7 +123,7 @@
                                 </tr>
                                  <tr>
                                     <td>
-                                        <span class="glyphicon glyphicon-trash text-primary"></span><a href="listaObiektow.html"> Gospodarka odpadami</a>
+                                        <span class="glyphicon glyphicon-trash text-primary"></span><a href="listaUrbisPwik.html"> Gospodarka odpadami</a>
                                     </td>
                                 </tr>
  
